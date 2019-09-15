@@ -8,7 +8,7 @@ def my_each(array) # put argument(s) here
   end
   array
 end
-
+collection = [1,2,3,4]
 my_each(collection) do |number|
   puts number
 end
